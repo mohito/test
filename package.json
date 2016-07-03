@@ -14,8 +14,7 @@
     "test": "gulp"
   },
   "devDependencies": {
-    "gulp-qunit": "~0.2.1",
-    "gulp-util": "~2.2.14",
-    "gulp": "~3.5.1"
+    "gulp": "^3.9.1",
+    "gulp-qunit": "^1.4.0"
   }
 }

@@ -2,21 +2,13 @@
 <html>
 <head>
     <title>QUnit Test Suite</title>
-    
-    <script>
-        /*// Let's test this function
-        function isEven(val) {
-            return val % 2 === 0;
-        }
-         
-        test('isEven()', function() {
-            ok(isEven(0), 'Zero is an even number');
-            ok(isEven(2), 'So is two');
-            ok(isEven(-4), 'So is negative four');
-            ok(!isEven(1), 'One is not an even number');
-            ok(!isEven(-7), 'Neither is negative seven');
-        })*/
-    </script>
+    <script src="https://code.jquery.com/qunit/qunit-2.0.0.js"></script>
+      <script>
+        QUnit.test( "a basic test example", function( assert ) {
+          var value = "hello";
+          assert.equal( value, "hello", "We expect value to be hello" );
+        });
+      </script>
 </head>
 <body>
     <h1 id="qunit-header">QUnit Test Suite</h1>
